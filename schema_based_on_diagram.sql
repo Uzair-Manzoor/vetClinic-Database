@@ -41,3 +41,9 @@ CREATE TABLE invoices (
     payed_at TIMESTAMP,
     medical_history_id INT
 );
+
+-- Create foreign key for invoices.
+ALTER TABLE invoices
+ADD CONSTRAINT fk_invoice_id
+FOREIGN KEY (medical_history_id)
+REFERENCES medical_histories (id);
