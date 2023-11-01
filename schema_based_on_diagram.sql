@@ -1,3 +1,6 @@
+-= Creating a database with name clinic
+CREATE DATABASE clinic
+    
 CREATE TABLE patients (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
