@@ -21,11 +21,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Diagram Database] <a name="about-project"></a>
+# 📖 [Vet Clinic Diagram Database] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[Diagram Database]** It is a database based on a database diagram, we can interpret it, and implement the SQL needed to build that database.
+**[Vet Clinic Diagram Database]** It is a database based on a database diagram for a clinic, which we can interpret it, and implement the SQL needed to build that database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
