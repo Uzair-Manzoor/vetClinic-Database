@@ -23,6 +23,7 @@
 
 # 📖 [Vet Clinic Diagram Database] <a name="about-project"></a>
 
+> Describe your project in 1 or 2 sentences.
 
 **[Vet Clinic Diagram Database]** It is a database based on a database diagram for a clinic, which we can interpret it, and implement the SQL needed to build that database.
 
@@ -30,6 +31,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -56,9 +58,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Database**
-- **Feature Relationship Diagram**
-- 
+> Describe between 1-3 key features of the application.
+
+- **[Database]**
+- **[Feature Relationship Diagram]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,6 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+> Add a link to your deployed project.
 
 - [Live Demo Link](Live Demo will be added later)
 
@@ -74,6 +79,8 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -130,6 +137,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -149,9 +157,10 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+> Describe 1 - 3 features you will add to the project.
 
-- [ ] **More Tables**
-- [ ] **Addl Data**
+- [ ] **[More Tables]**
+- [ ] **[Addl Data]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +178,9 @@ Feel free to check the [issues page](https://github.com/Uzair-Manzoor/vetClinic-
 
 ## ⭐️ Show your support <a name="support"></a>
 
-- If you like this project give it a star.
+> Write a message to encourage readers to support your project
+
+If you like this project give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,7 +190,7 @@ Feel free to check the [issues page](https://github.com/Uzair-Manzoor/vetClinic-
 
 - We than Microverseinc for providing us the oppertunity to learn SQL.
 
-- I would like to thank my coding partner for help and support. 
+I would like to thank my coding partner for help and support. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,7 +198,9 @@ Feel free to check the [issues page](https://github.com/Uzair-Manzoor/vetClinic-
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **For any questions follow our socials and DM**
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[For any questions follow our socials and DM]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
