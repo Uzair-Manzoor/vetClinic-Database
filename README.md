@@ -23,7 +23,6 @@
 
 # 📖 [Vet Clinic Diagram Database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[Vet Clinic Diagram Database]** It is a database based on a database diagram for a clinic, which we can interpret it, and implement the SQL needed to build that database.
 
@@ -31,7 +30,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -68,7 +66,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](Live Demo will be added later)
 
@@ -133,7 +130,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -153,10 +149,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[More Tables]**
-- [ ] **[Addl Data]**
+- [ ] **More Tables**
+- [ ] **Addl Data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
