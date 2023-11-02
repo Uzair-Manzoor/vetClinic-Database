@@ -48,6 +48,9 @@ REFERENCES medical_histories (id);
 
 CREATE TABLE invoice_items (
     id SERIAL PRIMARY KEY,
+    unit_price DECIMAL NOT NULL,
+    quatity INT NOT NULL,
+    total_price DECIMAL NOT NULL,
     invoice_id INT NOT NULL,
     treatment_id INT NOT NULL
 );
