@@ -1,6 +1,6 @@
 -= Creating a database with name clinic
 CREATE DATABASE clinic
-    
+
 CREATE TABLE patients (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -33,7 +33,6 @@ CREATE TABLE medical_history_treatments (
     FOREIGN KEY (treatment_id) REFERENCES treatment(id)
 );
 
--- Create the invoices' table.
 CREATE TABLE invoices (
     id SERIAL PRIMARY KEY,
     total_amount DECIMAL NOT NULL,
@@ -42,8 +41,34 @@ CREATE TABLE invoices (
     medical_history_id INT
 );
 
--- Create foreign key for invoices.
 ALTER TABLE invoices
 ADD CONSTRAINT fk_invoice_id
 FOREIGN KEY (medical_history_id)
 REFERENCES medical_histories (id);
+
+CREATE TABLE invoice_items (
+    id SERIAL PRIMARY KEY,
+    unit_price DECIMAL NOT NULL,
+    quatity INT NOT NULL,
+    total_price DECIMAL NOT NULL,
+    invoice_id INT NOT NULL,
+    treatment_id INT NOT NULL
+);
+
+ALTER TABLE invoice_items
+ADD CONSTRAINT fk_invoice_items_invoice_id
+FOREIGN KEY (invoice_id)
+REFERENCES invoices (id),
+ADD CONSTRAINT fk_invoice_items_treatment_id
+FOREIGN KEY (treatment_id)
+REFERENCES treatments (id);
+
+CREATE INDEX idx_fk_patient_id ON medical_histories (patient_id);
+
+CREATE INDEX idx_fk_medical_history_id ON medical_history_treatments (medical_history_id);
+CREATE INDEX idx_fk_treatment_id ON medical_history_treatments (treatment_id);
+
+CREATE INDEX idx_fk_medical_history_id ON invoices (medical_history_id);
+
+CREATE INDEX idx_fk_invoice_id ON invoice_items (invoice_id);
+CREATE INDEX idx_fk_treatment_id ON invoice_items (treatment_id);
