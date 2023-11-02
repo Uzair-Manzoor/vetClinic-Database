@@ -58,11 +58,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Database]**
-- **[Feature Relationship Diagram]**
-- **[key_feature_3]**
+- **Database**
+- **Feature Relationship Diagram**
+- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,8 +77,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -178,9 +174,7 @@ Feel free to check the [issues page](https://github.com/Uzair-Manzoor/vetClinic-
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project give it a star.
+- If you like this project give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,7 +184,7 @@ If you like this project give it a star.
 
 - We than Microverseinc for providing us the oppertunity to learn SQL.
 
-I would like to thank my coding partner for help and support. 
+- I would like to thank my coding partner for help and support. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,9 +192,7 @@ I would like to thank my coding partner for help and support.
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[For any questions follow our socials and DM]**
+- **For any questions follow our socials and DM**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
